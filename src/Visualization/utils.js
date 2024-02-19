@@ -42,7 +42,7 @@ export const calculateAlerts = (cumulativePower) => {
 export const getIntialMeterValue = () => {
   return localStorage.getItem("selectedMeters")
     ? JSON.parse(localStorage.getItem("selectedMeters"))
-    : ["M1 Power"];
+    : ["M1 Power (Watts)"];
 };
 
 export const getInitialGraphValue = () => {

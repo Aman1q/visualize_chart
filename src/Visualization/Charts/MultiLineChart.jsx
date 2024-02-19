@@ -41,7 +41,7 @@ const LineChart = ({ data, selectedMeters, colors, showAlertWidget }) => {
       const formattedData = data.map((d) => ({
         timestamp: d3.timeParse("%d-%m-%Y %H:%M")(d.Timestamp),
         power: d[meter],
-        clusterPower: d["Cluster Meter Power"],
+        clusterPower: d["Cluster Meter Power (Watts)"],
       }));
 
       formattedData.forEach((d) => {
