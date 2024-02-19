@@ -1,0 +1,24 @@
+.line_chart_cover {
+  display: flex;
+
+  .alerts_cover {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 400px;
+    overflow: auto;
+    width: 400px;
+  }
+  .tool_tip_style {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+  }
+  .chart_cover {
+    position: relative;
+  }
+}
